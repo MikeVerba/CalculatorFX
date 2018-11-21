@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <VBox>
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+               <children>
+                  <Label fx:id="outputLabel" alignment="TOP_RIGHT" prefWidth="162.0" />
+               </children></HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+               <children>
+                  <Button fx:id="button1" mnemonicParsing="false" onAction="#processButton1" text="1" />
+                  <Button fx:id="button2" mnemonicParsing="false" onAction="#processButton2" text="2" />
+                  <Button fx:id="button3" mnemonicParsing="false" onAction="#processButton3" text="3" />
+                  <Button fx:id="addButton" mnemonicParsing="false" onAction="#processAddButton" text="+" />
+                  <Button fx:id="clearButton" mnemonicParsing="false" onAction="#processClearButton" text="C" />
+               </children></HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+               <children>
+                  <Button fx:id="button4" mnemonicParsing="false" onAction="#processButton4" text="4" />
+                  <Button fx:id="button5" mnemonicParsing="false" onAction="#processButton5" text="5" />
+                  <Button fx:id="button6" mnemonicParsing="false" onAction="#processButton6" text="6" />
+                  <Button fx:id="subButton" mnemonicParsing="false" onAction="#processSubButton" text="-" />
+                  <Button fx:id="divideButton" mnemonicParsing="false" onAction="#processDivideButton" text="/" />
+               </children></HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+               <children>
+                  <Button fx:id="button7" mnemonicParsing="false" onAction="#processButton7" text="7" />
+                  <Button fx:id="button8" mnemonicParsing="false" onAction="#processButton8" text="8" />
+                  <Button fx:id="button9" mnemonicParsing="false" onAction="#processButton9" text="9" />
+                  <Button fx:id="multiButton" mnemonicParsing="false" onAction="#processMultiButton" text="*" />
+                  <Button fx:id="sqButton" mnemonicParsing="false" onAction="#processSqButton" text="sq" />
+               </children></HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+               <children>
+                  <Button fx:id="button0" mnemonicParsing="false" onAction="#processButton0" prefHeight="26.0" prefWidth="64.0" text="0" />
+                  <Button fx:id="dotButton" mnemonicParsing="false" onAction="#processDotButton" text="." />
+                  <Button fx:id="equalsButton" mnemonicParsing="false" onAction="#processEqualsButton" text="=" />
+                  <Button fx:id="sqrtButton" mnemonicParsing="false" onAction="#processSqrtButton" text="sqrt" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</StackPane>
